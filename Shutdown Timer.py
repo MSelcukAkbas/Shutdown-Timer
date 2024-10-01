@@ -8,13 +8,9 @@
         -- subprocess modülü
 """""
 
-# tkinter modülünden gerekli bileşenleri al
 from tkinter import Label, Button, Tk, Frame, messagebox
-# datetime modülünden datetime ve timedelta sınıflarını al
 from datetime import datetime, timedelta
-# tkinter.ttk modülünden Combobox sınıfını al
 from tkinter.ttk import Combobox
-# subprocess modülünden run, TimeoutExpired, CalledProcessError sınıflarını al
 from subprocess import run, TimeoutExpired, CalledProcessError
 
 class Kapatma_Zamanlayıcı(Tk):
